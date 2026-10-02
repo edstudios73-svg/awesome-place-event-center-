@@ -10,7 +10,7 @@ em{font-style:italic;color:var(--gold)}
 .top{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;align-items:center;justify-content:space-between;padding:calc(12px + env(safe-area-inset-top)) 18px 12px;color:#fff;transition:background .35s,box-shadow .35s,transform .35s}
 .top.solid{background:rgba(11,19,40,.92);backdrop-filter:blur(10px);box-shadow:0 6px 24px #0004}
 .logo{display:flex;align-items:center;gap:8px}
-.logo svg{width:30px;color:var(--gold2)}
+.logo img{width:36px;height:36px;border-radius:50%;box-shadow:0 0 0 1.5px var(--gold)}
 .logo span{font-size:17px;letter-spacing:.14em;text-transform:uppercase}
 .burger{width:44px;height:44px;border:0;background:transparent;position:relative;cursor:pointer;z-index:60}
 .burger span{position:absolute;left:10px;right:10px;height:1.5px;background:#fff;transition:.3s}
@@ -90,7 +90,7 @@ input:focus,select:focus,textarea:focus{outline:2px solid var(--gold2)}
 .hint{font-size:13px;color:var(--mute);margin-top:14px;text-align:center}.hint a{color:var(--gold)}
 footer{background:var(--navy2);color:#d9d6cf;text-align:center;padding:60px 20px calc(110px + env(safe-area-inset-bottom));margin-top:40px}
 .logo.big{flex-direction:column;gap:2px;margin-bottom:16px;color:#fff}
-.logo.big svg{width:46px}.logo.big span{font-size:22px}.logo.big small{font-size:10px;letter-spacing:.5em;text-transform:uppercase;color:var(--gold2)}
+.logo.big img{width:64px;height:64px;margin-bottom:8px}.logo.big span{font-size:22px}.logo.big small{font-size:10px;letter-spacing:.5em;text-transform:uppercase;color:var(--gold2)}
 footer p{font-size:14px;margin-top:6px}footer .tag{margin:14px 0 24px;color:var(--gold2)}
 .copy{font-size:11px!important;letter-spacing:.2em;text-transform:uppercase;opacity:.5}
 /* mobile dock */
